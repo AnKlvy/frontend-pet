@@ -3,43 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comment Section</title>
+    <title>Flex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="comment-section">
-        <div class="comment-form">
-            <textarea placeholder="Write a comment..."></textarea>
-            <button type="button">Post Comment</button>
-        </div>
-        <ul class="comments">
-            <li class="comment">
-                <div class="author">User1</div>
-                <div class="text">This is a sample comment.</div>
-                <div class="timestamp">2 hours ago</div>
-                <ul class="replies">
-                    <li class="comment">
-                        <div class="author">User2</div>
-                        <div class="text">This is a reply to User1's comment.</div>
-                        <div class="timestamp">1 hour ago</div>
-                        <ul class="replies">
-                            <li class="comment">
-                                <div class="author">User3</div>
-                                <div class="text">This is a reply to User2's reply.</div>
-                                <div class="timestamp">30 minutes ago</div>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="comment">
-                <div class="author">User4</div>
-                <div class="text">Another top-level comment.</div>
-                <div class="timestamp">1 hour ago</div>
-            </li>
-        </ul>
-    </div>
-
-    <div>SOme text</div>
+<div class="flex-container">
+    <div class="box" style="background-color:red">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box" style="background-color:yellow ">6</div>
+    <div class="box" style="background-color: yellow">7</div>
+</div>
 </body>
-</html></li>
+</html>
